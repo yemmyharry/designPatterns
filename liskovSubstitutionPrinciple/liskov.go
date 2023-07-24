@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// Liskov Substitution Principle
+// This principle states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+
 type Bird interface {
 	Fly()
 }
